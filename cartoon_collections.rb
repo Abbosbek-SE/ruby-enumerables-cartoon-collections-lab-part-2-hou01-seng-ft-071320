@@ -20,7 +20,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   for i in valid_calls do
     planeteer_calls.find do |n|
-      n == i
+      i == n
     end
   end
 end
